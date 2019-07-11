@@ -1,0 +1,81 @@
+body {font-family: 'Dancing Script', cursive;
+font-family: 'Open Sans', sans-serif;}
+.wrapper {
+ margin: 0 auto;
+ max-width: 768px;
+ padding-left: 15px;
+ padding-right: 15px;
+}
+header {
+ padding: 40px 15px;
+ background: #fcbab8;
+}
+header h1 {
+ margin: 10px 0;
+ color: white;
+}
+nav { background: #8e89b3; }
+nav a,
+nav a:visited,
+nav a:active {
+ text-decoration: none;
+ color: #ffafad;
+}
+article { padding: 15px; }
+article h1 {
+ font-family: Helvetica;
+ margin: 10px 0;
+ font-size: 25px;
+}
+li { list-style: none; }
+ol li { list-style: inherit; }
+li ul {
+ display: inline-block;
+ padding: 20px 15px;
+ font-weight: bold;
+ margin: 0;
+ cursor: pointer;
+}
+li ul:hover {
+ background: #46d7dc;
+}
+li ul:hover a {
+ color: white;
+}
+section > h1 {
+ margin-top: 60px;
+ color: #ffafad	;
+}
+.firstParagraph { margin-top: 40px; }
+p {
+ margin-bottom: 30px;
+ color: #2a2a2a;
+}
+footer {
+ margin: 20px 0;
+ padding: 20px;
+ text-align: center;
+ background: #f0f0f0;
+ color: #656565;
+}
+.linkprincipal{
+	color: white;
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+	font-size: 40px
+}
+.podcasttable{
+	border:2px solid #8e89b3;
+}
+.podcasttable td {
+	border:1px solid #8e89b3;
+}
+.mainname {
+	font-weight: bold
+}
+
+@media only screen and (max-width: 600px) {
+  .menuprincipal ul {
+    width: 100%;
+  }
+}
